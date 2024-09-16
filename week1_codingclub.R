@@ -174,3 +174,16 @@ ggboxplot(car_data, x = "am", y = "mpg", fill = "am",
 
 #Save your plot (e.g., use export function)
 #More plotting features to come in future meetings!
+
+####Variations of t tests----
+
+#What if your data was not normal?
+#Use the non-parametric test: 
+#Wilcoxon (one sample) or Mann-Whitney (two samples) test (function: wilcox.test)
+#Make sure to look up assumptions
+
+#One-sided versus two-sided t test
+
+#Paired t test? (use argument paired = TRUE (default is FALSE))
+
+
